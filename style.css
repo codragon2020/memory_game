@@ -4,7 +4,7 @@
 }
 
 body{
-    /* background-image: url("images/wood.jpg");no-repeat center center fixed; */
+    background-image: url("images/background.jpg");no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -36,7 +36,7 @@ body{
   }
   
   #board{
-    background-color: black;
+    background-color: transparent;
     width: 740px;
     height: 530px;
     padding-left: 10px;

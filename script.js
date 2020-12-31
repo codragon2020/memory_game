@@ -1,5 +1,3 @@
-
-
 cardArray=[
     {text: "A", image: "images/1.png"},
     {text: "A", image: "images/1.png"},
@@ -41,7 +39,7 @@ var shuffleDeck=function(){
     cardArray[randomIndex] = temporaryValue;
   }
 }
-///////////////////////////////////////// End shuffle DECK
+// End shuffle DECK
   shuffleDeck();
   console.log(cardArray);
 var board=document.getElementById("board");
